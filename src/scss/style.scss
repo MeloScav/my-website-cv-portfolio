@@ -1,6 +1,8 @@
 @import "./helpers/variables";
 @import "./helpers/functions";
+@import "./helpers/mixins";
 
 @import "./global/common";
 
 @import "./components/navbar";
+@import "./components/banner";
