@@ -1,0 +1,23 @@
+{
+  "name": "my-website-cv-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "parcel src/index.html",
+    "watch" : "parcel watch src/index.html",
+    "build" : "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeloScav/my-website-cv-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeloScav/my-website-cv-portfolio/issues"
+  },
+  "homepage": "https://github.com/MeloScav/my-website-cv-portfolio#readme"
+}
