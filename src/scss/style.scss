@@ -9,3 +9,8 @@
 @import "./components/navbar";
 @import "./components/banner";
 @import "./components/skills";
+
+@font-face {
+  font-family: Monserrat-italic;
+  src: url(./../assets/fonts/Montserrat-Italic.ttf) format("ttf");
+}
