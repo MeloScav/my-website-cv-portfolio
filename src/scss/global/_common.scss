@@ -5,9 +5,10 @@ body {
 }
 
 .title {
+  margin: calculateRem(66) calculateRem(58);
   text-align: center;
   font-size: calculateRem(32);
-  // font-family: "Monserrat-semibold";
+  font-family: Monserrat-semibold;
   span {
     position: relative;
     display: inline-block;
