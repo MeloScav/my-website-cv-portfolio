@@ -1,6 +1,5 @@
 @import "./helpers/variables";
 @import "./helpers/functions";
-@import "./helpers/mixins";
 
 @import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -14,4 +13,9 @@
 @font-face {
   font-family: Monserrat-italic;
   src: url(./../assets/fonts/Montserrat-Italic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: Monserrat-semibold;
+  src: url(./../assets/fonts/Montserrat-SemiBold.ttf) format("ttf");
 }
