@@ -1,0 +1,20 @@
+.banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .banner-text {
+    margin-top: calculateRem(35);
+    margin-bottom: calculateRem(35);
+    h1 {
+      margin: 0;
+      // padding: calculateRem(28) calculateRem(33);
+      // font-family: "Monserrat-italic";
+      font-size: calculateRem(18);
+      color: $colorText;
+    }
+    border: 3px solid $primary;
+    border-radius: 10px;
+  }
+}
