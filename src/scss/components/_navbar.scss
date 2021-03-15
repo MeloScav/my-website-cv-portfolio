@@ -3,8 +3,10 @@
   height: calculateRem(80);
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: $white;
   box-shadow: 0px 5px 20px 0px rgba($grey, 0.42);
+  z-index: 1;
   a {
     width: auto;
     height: 100%;
@@ -14,7 +16,7 @@
     }
   }
   @media screen and(min-width:425px) {
-    height: calculateRem(125);
+    height: calculateRem(140);
     a {
       width: calculateRem(234);
       height: calculateRem(121);
