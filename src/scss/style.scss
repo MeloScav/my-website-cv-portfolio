@@ -2,7 +2,10 @@
 @import "./helpers/functions";
 @import "./helpers/mixins";
 
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
 @import "./global/common";
 
 @import "./components/navbar";
 @import "./components/banner";
+@import "./components/skills";
