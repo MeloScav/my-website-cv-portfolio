@@ -5,10 +5,18 @@ body {
 }
 
 .title {
-  margin: calculateRem(66) calculateRem(58);
+  margin: calculateRem(46) calculateRem(28);
   text-align: center;
   font-size: calculateRem(32);
   font-family: Monserrat-semibold;
+
+  @media screen and(min-width: 425px) and (max-width: 768px) {
+    margin: calculateRem(56) calculateRem(40);
+  }
+  @media screen and(min-width: 768px) {
+    margin: calculateRem(66) calculateRem(58);
+  }
+
   span {
     position: relative;
     display: inline-block;
@@ -27,6 +35,17 @@ body {
 }
 
 h3 {
+  padding-top: calculateRem(35);
+  padding-bottom: calculateRem(28);
   text-align: center;
-  padding-top: 33px;
+  font-size: calculateRem(24);
+  font-family: Monserrat-extrabold;
+  @media screen and(min-width: 425px) and (max-width: 768px) {
+    padding-top: calculateRem(45);
+    padding-bottom: calculateRem(38);
+  }
+  @media screen and(min-width: 768px) {
+    padding-top: calculateRem(65);
+    padding-bottom: calculateRem(48);
+  }
 }
