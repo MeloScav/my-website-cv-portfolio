@@ -13,13 +13,13 @@
     height: 55vh;
   }
   @media screen and(min-width:768px) {
-    height: 65vh;
+    height: 70vh;
   }
 
   .banner-text {
     margin: calculateRem(35) calculateRem(10);
     max-width: calculateRem(763);
-    background-color: rgba($white, 0.62);
+    background-color: rgba($white, 0.55);
     border: 3px solid $primary;
     border-radius: 10px;
     @media screen and(min-width:375px) and (max-width: 425px) {
