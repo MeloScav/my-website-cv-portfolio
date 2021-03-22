@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "Monserrat-regular";
+  src: url(./../assets/fonts/Montserrat-Regular.ttf) format("ttf");
+}
+
+@font-face {
   font-family: "Monserrat-italic";
   src: url(./../assets/fonts/Montserrat-Italic.ttf) format("ttf");
 }
@@ -24,4 +29,4 @@
 @import "./components/navbar";
 @import "./components/banner";
 @import "./components/skills";
-
+@import "./components/experiences";
