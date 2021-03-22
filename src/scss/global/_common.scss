@@ -17,7 +17,7 @@ body {
   @include media-breakpoint-up(md) {
     margin: calculateRem(66) calculateRem(58);
   }
-  
+
   span {
     position: relative;
     display: inline-block;
@@ -64,4 +64,29 @@ h4 {
   font-family: "Monserrat-semibold";
   font-weight: 600;
   font-size: calculateRem(20);
+}
+
+p {
+  margin: 0;
+  font-family: "Monserrat-regular";
+}
+
+// EXPERIENCES AND DIPLOMAS - QUALIFICATIONS
+.separation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .line {
+    margin: 10px;
+    min-width: 40px;
+    height: 1px;
+    border: 1px solid $primary;
+    background-color: $primary;
+  }
+  .circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: $primary;
+  }
 }
