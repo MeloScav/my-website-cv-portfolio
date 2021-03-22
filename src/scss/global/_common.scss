@@ -90,3 +90,19 @@ p {
     background-color: $primary;
   }
 }
+
+.padding-content {
+  padding-bottom: calculateRem(22);
+  @include media-breakpoint-up(sm) {
+    padding-bottom: calculateRem(33);
+  }
+}
+.padding-content-end {
+  padding-bottom: calculateRem(30);
+  @include media-breakpoint-up(sm) {
+    padding-bottom: calculateRem(40);
+  }
+  @include media-breakpoint-up(lg) {
+    padding-bottom: calculateRem(58);
+  }
+}
