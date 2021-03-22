@@ -1,0 +1,39 @@
+.xp-content:not(:last-child) {
+  margin-bottom: calculateRem(22);
+  @include media-breakpoint-up(sm) {
+    margin-bottom: calculateRem(33);
+  }
+}
+.xp-content:last-child {
+  margin-bottom: calculateRem(30);
+  @include media-breakpoint-up(sm) {
+    margin-bottom: calculateRem(40);
+  }
+  @include media-breakpoint-up(lg) {
+    margin-bottom: calculateRem(58);
+  }
+}
+.xp-title {
+  margin-bottom: calculateRem(16);
+  .name,
+  .establishment {
+    font-family: "Monserrat-semibold";
+    font-weight: 600;
+  }
+  .name {
+    margin-right: calculateRem(24);
+  }
+  .establishment {
+    margin-right: calculateRem(13);
+    color: $primary;
+  }
+  .city {
+    font-family: Monserrat-italic;
+    font-style: italic;
+    color: $greyDark;
+  }
+}
+
+.xp-description {
+  line-height: calculateRem(22);
+}
