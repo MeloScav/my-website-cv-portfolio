@@ -8,15 +8,16 @@ body {
   margin: calculateRem(46) calculateRem(28);
   text-align: center;
   font-size: calculateRem(32);
-  font-family: Monserrat-semibold;
+  font-family: "Monserrat-semibold";
+  font-weight: 600;
 
-  @media screen and(min-width: 425px) and (max-width: 768px) {
+  @include media-breakpoint-up(sm) {
     margin: calculateRem(56) calculateRem(40);
   }
-  @media screen and(min-width: 768px) {
+  @include media-breakpoint-up(md) {
     margin: calculateRem(66) calculateRem(58);
   }
-
+  
   span {
     position: relative;
     display: inline-block;
@@ -39,13 +40,28 @@ h3 {
   padding-bottom: calculateRem(28);
   text-align: center;
   font-size: calculateRem(24);
-  font-family: Monserrat-extrabold;
-  @media screen and(min-width: 425px) and (max-width: 768px) {
+  font-family: "Monserrat-extrabold";
+  font-weight: 900;
+  @include media-breakpoint-up(sm) {
     padding-top: calculateRem(45);
     padding-bottom: calculateRem(38);
   }
-  @media screen and(min-width: 768px) {
+  @include media-breakpoint-up(md) {
     padding-top: calculateRem(65);
     padding-bottom: calculateRem(48);
   }
+}
+
+h4 {
+  margin-bottom: calculateRem(34);
+  text-align: center;
+  @include media-breakpoint-up(sm) {
+    margin-bottom: calculateRem(44);
+  }
+  @include media-breakpoint-up(md) {
+    margin-bottom: calculateRem(54);
+  }
+  font-family: "Monserrat-semibold";
+  font-weight: 600;
+  font-size: calculateRem(20);
 }
