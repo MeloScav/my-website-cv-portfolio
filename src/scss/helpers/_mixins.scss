@@ -3,3 +3,19 @@
     background-color: $backgroundColor;
   }
 }
+
+@mixin titleSubAlignment($bgColor) {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  &::before {
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    width: 60%;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $bgColor;
+  }
+}
