@@ -1,0 +1,41 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @include media-breakpoint-up(sm) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($primary, 0.76);
+  .title-footer {
+    margin-bottom: 25px;
+    span {
+      font-family: "Monserrat-semibold";
+      font-weight: 600;
+      font-size: calculateRem(20);
+      color: $white;
+      @include titleSubAlignment($white);
+    }
+  }
+
+  .email {
+    margin-bottom: 32px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .icons {
+    .icon {
+      max-width: 32px;
+      max-height: 32px;
+      &:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
