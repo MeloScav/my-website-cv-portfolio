@@ -19,23 +19,11 @@ body {
   }
 
   span {
-    position: relative;
-    display: inline-block;
-    margin: 0 auto;
-    &::before {
-      position: absolute;
-      content: "";
-      bottom: -8px;
-      width: 60%;
-      height: 3px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: $primary;
-    }
+    @include titleSubAlignment($primary);
   }
 }
 
-h3 {
+.title-h3 {
   padding-top: calculateRem(35);
   padding-bottom: calculateRem(28);
   text-align: center;
@@ -52,7 +40,7 @@ h3 {
   }
 }
 
-h4 {
+.title-h4 {
   margin-bottom: calculateRem(34);
   text-align: center;
   @include media-breakpoint-up(sm) {
