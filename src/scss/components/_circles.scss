@@ -1,0 +1,54 @@
+.circles {
+  position: absolute;
+  border-radius: 50%;
+  background-color: $primary;
+  z-index: -1;
+}
+.circle-small {
+  width: 70px;
+  height: 70px;
+}
+.circle-middle {
+  width: 110px;
+  height: 110px;
+}
+.circle-tall {
+  width: 210px;
+  height: 210px;
+}
+
+.cv-title {
+  position: relative;
+  .circle-small {
+    top: 65%;
+    right: 20%;
+  }
+}
+
+.xp-container {
+  position: relative;
+  .circle-middle {
+    top: 5%;
+    left: 3%;
+  }
+  .circle-tall {
+    bottom: -13%;
+    right: 3%;
+  }
+}
+
+.container-portfolio {
+  position: relative;
+  .circle-tall {
+    top: -2%;
+    left: 5%;
+  }
+  .circle-middle {
+    top: 50%;
+    right: 30%;
+  }
+  .circle-small {
+    bottom: 10%;
+    left: 5%;
+  }
+}
