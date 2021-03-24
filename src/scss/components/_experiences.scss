@@ -1,3 +1,7 @@
+.text-align-right {
+  text-align: right;
+}
+
 .xp-title {
   margin-bottom: calculateRem(16);
   .name,
@@ -6,13 +10,13 @@
     font-weight: 600;
   }
   .name {
-    margin-right: calculateRem(24);
+    margin-right: calculateRem(15); //24
   }
   .establishment {
-    margin-right: calculateRem(13);
     color: $primary;
   }
   .city {
+    margin-left: calculateRem(10); //13
     font-family: Monserrat-italic;
     font-style: italic;
     color: $greyDark;
