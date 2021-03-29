@@ -29,3 +29,11 @@ $colorMySQL: #00758f;
 $colorPython: #1f4361;
 $colorBatch: #2b2b2b;
 $colorFigma: #a259ff;
+
+// Bootstrap variables overwriting
+$font-family-sans-serif: "Montserrat";
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+);
