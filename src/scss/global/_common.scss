@@ -1,14 +1,42 @@
+@font-face {
+  font-family: $font-family-sans-serif;
+  src: url(./../assets/fonts/Montserrat-Regular.ttf) format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: $font-family-sans-serif;
+  src: url(./../assets/fonts/Montserrat-Italic.ttf) format("ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: $font-family-sans-serif;
+  src: url(./../assets/fonts/Montserrat-SemiBold.ttf) format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: $font-family-sans-serif;
+  src: url(./../assets/fonts/Montserrat-ExtraBold.ttf) format("ttf");
+  font-weight: 900;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: $font-family-sans-serif !important;
+  font-weight: 400;
+}
+
 .title {
   margin: calculateRem(46) calculateRem(28);
   text-align: center;
   font-size: calculateRem(32);
-  font-family: "Monserrat-semibold";
   font-weight: 600;
 
   @include media-breakpoint-up(sm) {
@@ -28,7 +56,6 @@ body {
   padding-bottom: calculateRem(28);
   text-align: center;
   font-size: calculateRem(24);
-  font-family: "Monserrat-extrabold";
   font-weight: 900;
   @include media-breakpoint-up(sm) {
     padding-top: calculateRem(45);
@@ -49,14 +76,12 @@ body {
   @include media-breakpoint-up(md) {
     margin-bottom: calculateRem(54);
   }
-  font-family: "Monserrat-semibold";
   font-weight: 600;
   font-size: calculateRem(20);
 }
 
 p {
   margin: 0;
-  font-family: "Monserrat-regular";
 }
 
 // EXPERIENCES AND DIPLOMAS - QUALIFICATIONS
@@ -92,5 +117,13 @@ p {
   }
   @include media-breakpoint-up(lg) {
     padding-bottom: calculateRem(58);
+  }
+}
+
+.custom-container {
+  @include media-breakpoint-up(md) {
+    max-width: 1700px;
+    overflow: hidden;
+    margin: 0 auto;
   }
 }
