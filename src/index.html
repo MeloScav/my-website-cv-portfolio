@@ -1,35 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+      href="./assets/fonts/Montserrat-Regular.ttf"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+      href="./assets/fonts/Montserrat-Italic.ttf"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+      href="./assets/fonts/Montserrat-SemiBold.ttf"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+      href="./assets/fonts/Montserrat-ExtraBold.ttf"
+    />
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <title>Méloé Scavezzoni</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preload" as="font" type="font/ttf" crossorigin="" href="./assets/fonts/Montserrat-Italic.ttf" />
-  <link rel="preload" as="font" type="font/ttf" crossorigin="" href="./assets/fonts/Montserrat-SemiBold.ttf" />
-  <link rel="preload" as="font" type="font/ttf" crossorigin="" href="./assets/fonts/Montserrat-ExtraBold.ttf" />
-  <link rel="stylesheet" href="./scss/style.scss" />
-  <title>Méloé Scavezzoni</title>
-</head>
+  <body>
+    <div class="custom-container">
+      <div class="header-banner">
+        <div class="intro-container">
+          <nav class="logo-container">
+            <a href="javascript:;">
+              <img src="./assets/Logo.svg" alt="LOGO" />
+            </a>
+          </nav>
+          <h1>
+            <span>Autodidacte</span>, <span>curieuse</span> et
+            <span>motivée</span>, j’ai envie d’apprendre des nouvelles choses et
+            de perfectionner mes connaissances.
+          </h1>
 
-<body>
-  <div class="page">
-    <!-- NAVBAR -->
-    <nav class="navbar">
-      <a href="javascript:;">
-        <img src="./assets/Logo.svg" alt="LOGO" />
-      </a>
-    </nav>
+          <div class="icons">
+            <a href="javascript:;">
+              <svg>
+                <use xlink:href="./assets/icons/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a href="javascript:;">
+              <svg>
+                <use xlink:href="./assets/icons/sprite.svg#github"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="banner-image-container">
+          <div class="banner-image"></div>
+        </div>
+        <div class="scroll-down-button"></div>
+      </div>
+    </div>
 
     <!-- BANNER -->
-    <div class="banner">
+    <!-- <div class="banner">
       <div class="banner-text">
         <h1>
           Autodidacte, curieuse et motivée, j’ai envie d’apprendre des nouvelles
           choses et de perfectionner mes connaissances.
         </h1>
       </div>
-    </div>
+    </div> -->
 
     <!-- CV -->
     <div class="cv-container">
@@ -167,9 +217,9 @@
                 <div class="xp-description">
                   <p>
                     Intégration de site statique à partir de design, création de
-                    design, intégration de la partie frontend dans la partie backend
-                    (Zend Framework 3), modification de contenu, mise à jour
-                    d’anciens projets.
+                    design, intégration de la partie frontend dans la partie
+                    backend (Zend Framework 3), modification de contenu, mise à
+                    jour d’anciens projets.
                   </p>
                 </div>
               </div>
@@ -219,8 +269,8 @@
                 <div class="xp-description">
                   <p>
                     Utilisation de Git/GitHub, apprentissage autodidacte de
-                    différents langages, création de site web (statique, dynamique,
-                    SPA) et d’application.
+                    différents langages, création de site web (statique,
+                    dynamique, SPA) et d’application.
                   </p>
                 </div>
               </div>
@@ -286,7 +336,9 @@
               <div class="col-7 col-md-5">
                 <p class="xp-title">
                   <span class="name">Assistante Vétérinaire</span>
-                  <span class="establishment">Cabinet Vétérinaire - Dr Catherine Bande</span>
+                  <span class="establishment"
+                    >Cabinet Vétérinaire - Dr Catherine Bande</span
+                  >
                   <span class="city">Beaufays</span>
                 </p>
               </div>
@@ -426,15 +478,24 @@
       <div class="container">
         <div class="portfolio">
           <div class="block-img grid-item">
-            <img src="./assets/images/portfolio/web-site.jpeg" alt="My old web site" />
+            <img
+              src="./assets/images/portfolio/web-site.jpeg"
+              alt="My old web site"
+            />
             <a href="https://meloescavezzoni.netlify.app/" class="link-img">
               <span class="title-img">Mon ancien site</span>
             </a>
           </div>
 
           <div class="block-img grid-item">
-            <img src="./assets/images/portfolio/bookshelf.jpeg" alt="Bookshelf" />
-            <a href="https://bookshelf-ms.netlify.app/auth/signup" class="link-img">
+            <img
+              src="./assets/images/portfolio/bookshelf.jpeg"
+              alt="Bookshelf"
+            />
+            <a
+              href="https://bookshelf-ms.netlify.app/auth/signup"
+              class="link-img"
+            >
               <span class="title-img">Bookshelf</span>
               <span class="description-img">
                 Une application créée avec Angular et Firebase.
@@ -476,7 +537,10 @@
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/bureau-andre.jpeg" alt="Bureau Andre" />
+            <img
+              src="./assets/images/portfolio/bureau-andre.jpeg"
+              alt="Bureau Andre"
+            />
             <a href="https://www.bureau-andre.be/" class="link-img">
               <span class="title-img">Bureau Andre</span>
               <span class="description-img">
@@ -487,7 +551,10 @@
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/gregor-potter.jpeg" alt="Gregor Potter" />
+            <img
+              src="./assets/images/portfolio/gregor-potter.jpeg"
+              alt="Gregor Potter"
+            />
             <a href="https://www.gregorpotter.com/" class="link-img">
               <span class="title-img">Gregor Potter</span>
               <span class="description-img">
@@ -498,7 +565,10 @@
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/climactes.jpg" alt="Climactes" />
+            <img
+              src="./assets/images/portfolio/climactes.jpg"
+              alt="Climactes"
+            />
             <a href="https://www.climactes.org/" class="link-img">
               <span class="title-img">Climactes</span>
               <span class="description-img">
@@ -509,18 +579,24 @@
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/achille-et-margaux.jpg" alt="Achille et Margaux" />
+            <img
+              src="./assets/images/portfolio/achille-et-margaux.jpg"
+              alt="Achille et Margaux"
+            />
             <a href="https://www.achillemargaux.be/" class="link-img">
               <span class="title-img">Achille et Margaux</span>
               <span class="description-img">
-                Participation au développement d'un site internet pour une agence
-                immobilière.
+                Participation au développement d'un site internet pour une
+                agence immobilière.
               </span>
             </a>
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/ferretland.jpeg" alt="Ferretland" />
+            <img
+              src="./assets/images/portfolio/ferretland.jpeg"
+              alt="Ferretland"
+            />
             <a href="https://ferretland-ms.netlify.app/" class="link-img">
               <span class="title-img">Ferretland</span>
               <span class="description-img">
@@ -530,7 +606,10 @@
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/trouvkach.jpg" alt="Trouvkach" />
+            <img
+              src="./assets/images/portfolio/trouvkach.jpg"
+              alt="Trouvkach"
+            />
             <a href="https://trouvkach-6.herokuapp.com/" class="link-img">
               <span class="title-img">Trouvkach</span>
               <span class="description-img">
@@ -540,44 +619,60 @@
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/tic-tac-toe.jpeg" alt="Tic Tac Toe" />
-            <a href="https://meloscav.github.io/Jeu-Tic-tac-toe-/" class="link-img">
+            <img
+              src="./assets/images/portfolio/tic-tac-toe.jpeg"
+              alt="Tic Tac Toe"
+            />
+            <a
+              href="https://meloscav.github.io/Jeu-Tic-tac-toe-/"
+              class="link-img"
+            >
               <span class="title-img">Tic Tac Toe</span>
               <span class="description-img">Petit jeu en CANVAS.</span>
             </a>
           </div>
 
           <div class="block-img">
-            <img src="./assets/images/portfolio/casse-briques.jpg" alt="Casse briques" />
-            <a href="https://meloscav.github.io/Jeu-casse-briques/" class="link-img">
+            <img
+              src="./assets/images/portfolio/casse-briques.jpg"
+              alt="Casse briques"
+            />
+            <a
+              href="https://meloscav.github.io/Jeu-casse-briques/"
+              class="link-img"
+            >
               <span class="title-img">Casse briques</span>
               <span class="description-img">Petit jeu en CANVAS.</span>
             </a>
           </div>
         </div>
       </div>
-    
 
-    <!-- FOOTER -->
-    <div class="footer">
-      <h4 class="title-footer"><span>Contact</span></h4>
-      <p class="email">
-        <a href="mailto:meloscavezzoni@gmail.com"> meloscavezzoni@gmail.com </a>
-      </p>
-      <h4 class="title-footer">
-        <span>Retrouvez-moi également sur :</span>
-      </h4>
-      <div class="icons">
-        <a href="javascrip:;">
-          <img class="icon" src="./assets/icons/linkedin.svg" alt="LinkedIn" />
-        </a>
-        <a href="javascrip:;">
-          <img class="icon" src="./assets/icons/github.svg" alt="LinkedIn" />
-        </a>
+      <!-- FOOTER -->
+      <div class="footer">
+        <h4 class="title-footer"><span>Contact</span></h4>
+        <p class="email">
+          <a href="mailto:meloscavezzoni@gmail.com">
+            meloscavezzoni@gmail.com
+          </a>
+        </p>
+        <h4 class="title-footer">
+          <span>Retrouvez-moi également sur :</span>
+        </h4>
+        <div class="icons">
+          <a href="javascript:;">
+            <img
+              class="icon"
+              src="./assets/icons/linkedin.svg"
+              alt="LinkedIn"
+            />
+          </a>
+          <a href="javascript:;">
+            <img class="icon" src="./assets/icons/github.svg" alt="LinkedIn" />
+          </a>
+        </div>
       </div>
     </div>
-  </div>
     <script src="./js/index.js"></script>
-</body>
-
+  </body>
 </html>
