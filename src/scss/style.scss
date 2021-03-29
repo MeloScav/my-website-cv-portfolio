@@ -1,28 +1,8 @@
-@font-face {
-  font-family: "Monserrat-regular";
-  src: url(./../assets/fonts/Montserrat-Regular.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Monserrat-italic";
-  src: url(./../assets/fonts/Montserrat-Italic.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Monserrat-semibold";
-  src: url(./../assets/fonts/Montserrat-SemiBold.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Monserrat-extrabold";
-  src: url(./../assets/fonts/Montserrat-ExtraBold.ttf) format("ttf");
-}
-
 @import "./helpers/variables";
 @import "./helpers/functions";
 @import "./helpers/mixins";
 
-@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap.scss";
 
 @import "./global/common";
 
