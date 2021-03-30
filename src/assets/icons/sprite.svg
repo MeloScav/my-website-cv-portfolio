@@ -14,4 +14,46 @@
                 fill="currentColor" />
         </g>
     </symbol>
+
+    <symbol id="down-arrow" viewBox="0 0 451.847 451.847">
+        <g xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751   c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0   c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"
+                fill="currentColor" />
+        </g>
+    </symbol>
+
+    <symbol id="logo" viewBox="0 0 541 277">
+        <g id="Logo" transform="translate(-143 3)">
+            <text id="Frontend_web_developer" data-name="Frontend web developer" transform="translate(143 257)"
+                fill="#707070" font-size="60" font-family="AdobeDevanagari-Regular, Adobe Devanagari">
+                <tspan x="0" y="0">Frontend web developer</tspan>
+            </text>
+            <text id="Méloé" transform="translate(279 177)" fill="#707070" font-size="70"
+                font-family="BookAntiqua, Book Antiqua" letter-spacing="0.2em">
+                <tspan x="0" y="0">Méloé</tspan>
+            </text>
+            <text id="Scavezzoni" transform="translate(249 71)" fill="#c74db2" font-size="80"
+                font-family="DancingScript-SemiBold, Dancing Script" font-weight="600">
+                <tspan x="0" y="0">Scavezzoni</tspan>
+            </text>
+        </g>
+    </symbol>
+
+    <symbol id="logo2" viewBox="0 0 235 121">
+        <g id="Logo" transform="translate(-254 -62)">
+            <text id="Frontend_web_developer" data-name="Frontend web developer" transform="translate(254 176)"
+                fill="#707070" font-size="26" font-family="AdobeDevanagari-Regular, Adobe Devanagari">
+                <tspan x="0" y="0">Frontend web developer</tspan>
+            </text>
+            <text id="Méloé" transform="translate(318 144)" fill="#707070" font-size="30"
+                font-family="BookAntiqua, Book Antiqua" letter-spacing="0.2em">
+                <tspan x="0" y="0">Méloé</tspan>
+            </text>
+            <text id="Scavezzoni" transform="translate(294 99)" fill="#c74db2" font-size="40"
+                font-family="DancingScript-SemiBold, Dancing Script" font-weight="600">
+                <tspan x="0" y="0">Scavezzoni</tspan>
+            </text>
+        </g>
+    </symbol>
 </svg>
