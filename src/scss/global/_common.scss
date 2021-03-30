@@ -127,3 +127,18 @@ p {
     margin: 0 auto;
   }
 }
+
+.icons {
+  display: flex;
+  justify-content: center;
+
+  a {
+    + * {
+      margin-left: 60px;
+    }
+    svg {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
