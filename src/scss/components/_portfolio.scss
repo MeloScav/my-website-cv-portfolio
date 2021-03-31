@@ -60,7 +60,7 @@
       .title-img {
         font-weight: 600;
         font-size: calculateRem(25);
-        color: $colorTextWhite;
+        color: $colorText;
         @include media-breakpoint-down(md) {
           font-size: calculateRem(20);
         }
@@ -68,9 +68,10 @@
       .description-img {
         padding-right: calculateRem(20);
         padding-left: calculateRem(20);
-        font-size: calculateRem(14);
-        color: $colorTextWhite;
-        line-height: 1.2;
+        font-size: calculateRem(16);
+        text-align: center;
+        color: $colorText;
+        line-height: 20px;
         @include media-breakpoint-down(md) {
           padding-right: calculateRem(10);
           padding-left: calculateRem(10);
