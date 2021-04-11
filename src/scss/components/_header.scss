@@ -5,23 +5,17 @@
   height: 100vh;
 
   @include media-breakpoint-down(lg) {
-    padding: 0 12px;
+    align-items: flex-start;
   }
 
   .intro-container {
     flex: 40%;
     display: flex;
     flex-direction: column;
-    @include media-breakpoint-down(md) {
-      padding: 16px 16px 40px 16px;
-    }
     @include media-breakpoint-down(lg) {
-      max-width: 600px;
+      min-width: 100%;
+      height: 90vh;
       margin: 0 auto;
-      padding: 20px 16px 40px 16px;
-      background-color: rgba($white, 0.9);
-      border: 3px solid $primary;
-      border-radius: 10px;
     }
 
     .logo-container {
@@ -31,16 +25,17 @@
       align-items: center;
       z-index: 1;
 
+      @include media-breakpoint-down(lg) {
+        padding: 10px 0 10px 0;
+        min-width: 100%;
+        background-color: $white;
+        box-shadow: 0px 0px 10px 0px $grey;
+      }
+
       svg {
-        width: 60vw;
-        height: auto;
+        width: 360px;
+        height: 107px;
         user-select: none;
-        @include media-breakpoint-up(md) {
-          width: 400px;
-          height: 147px;
-          padding-right: 15px;
-          padding-left: 15px;
-        }
         @include media-breakpoint-up(lg) {
           width: 420px;
           height: 167px;
@@ -53,22 +48,32 @@
     }
 
     h1 {
-      max-width: 450px;
-      margin: 20px auto 45px auto;
-      padding-right: 15px;
-      padding-left: 15px;
+      max-width: 90vw;
+      margin: auto;
       font-style: italic;
-      font-size: calculateRem(20);
+      font-size: calculateRem(18);
       font-weight: 400;
       line-height: 25px;
       text-align: center;
       color: $colorText;
 
+      padding: 25px 20px;
+      background-color: rgba($white, 0.8);
+      border: 3px solid $primary;
+      border-radius: 10px;
+
       @include media-breakpoint-up(md) {
-        margin: 35px auto 55px auto;
         max-width: 470px;
-        font-size: calculateRem(25);
+        padding: 35px 30px;
+        font-size: calculateRem(22);
         line-height: 30px;
+      }
+      @include media-breakpoint-up(lg) {
+        margin: 35px auto 55px auto;
+        padding: 0 15px 0 15px;
+        font-size: calculateRem(25);
+        background-color: transparent;
+        border: none;
       }
       @include media-breakpoint-up(xl) {
         max-width: 510px;
@@ -80,11 +85,20 @@
       }
     }
 
-    .icons a {
-      color: $primary;
-      transition: all ease-in-out 0.35s;
-      &:hover {
-        color: $darkPrimary;
+    .icons {
+      margin-bottom: 15px;
+      a {
+        color: $white;
+        transition: all ease-in-out 0.35s;
+        &:hover {
+          color: $darkWhite;
+        }
+        @include media-breakpoint-up(lg) {
+          color: $primary;
+          &:hover {
+            color: $darkPrimary;
+          }
+        }
       }
     }
   }
@@ -101,6 +115,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        height: 90vh;
       }
     }
 
@@ -109,8 +124,8 @@
     left: 0;
     width: 100%;
     height: calc(100% + 120px);
-    border-left: 3px solid $primary;
-    border-bottom: 3px solid $primary;
+    border: 3px solid $primary;
+    border-right: 0;
     border-top-left-radius: 160%;
     border-bottom-left-radius: 160%;
     background: url("../assets/images/william-iven-SpVHcbuKi6E-unsplash.jpg")
@@ -147,12 +162,12 @@
 
 @keyframes move-arrow {
   0% {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
   }
   40% {
-    transform: translateY(-8px);
+    transform: translate(-50%, -8px);
   }
   100% {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
   }
 }
