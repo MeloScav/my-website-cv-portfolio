@@ -80,12 +80,10 @@
         font-size: calculateRem(27);
         line-height: 33px;
       }
-      span {
-        color: $primary;
-      }
     }
 
     .icons {
+      position: relative;
       margin-bottom: 15px;
       a {
         color: $white;
