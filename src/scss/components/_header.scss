@@ -32,17 +32,14 @@
         box-shadow: 0px 0px 10px 0px $grey;
       }
 
-      svg {
-        width: 360px;
-        height: 107px;
-        user-select: none;
+      img {
+        width: 250px;
+        height: auto;
         @include media-breakpoint-up(lg) {
-          width: 420px;
-          height: 167px;
+          width: 370px;
         }
         @include media-breakpoint-up(xl) {
-          width: 500px;
-          height: 237px;
+          width: 460px;
         }
       }
     }
