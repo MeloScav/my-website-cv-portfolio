@@ -1,504 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Primary Meta Tags -->
-    <title>Scavezzoni Méloé - Développeuse Web Frontend</title>
-    <meta name="title" content="Scavezzoni Méloé - Développeuse Web Frontend" />
-    <meta name="description" content="Site CV - Portfolio" />
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://unruffled-panini-66f35a.netlify.app"
-    />
-    <meta
-      property="og:title"
-      content="Scavezzoni Méloé - Développeuse Web Frontend"
-    />
-    <meta property="og:description" content="Site CV - Portfolio" />
-    <meta property="og:image" content="./assets/images/og-image.jpeg" />
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:url"
-      content="https://unruffled-panini-66f35a.netlify.app"
-    />
-    <meta
-      property="twitter:title"
-      content="Scavezzoni Méloé - Développeuse Web Frontend"
-    />
-    <meta property="twitter:description" content="Site CV - Portfolio" />
-    <meta property="twitter:image" content="./assets/images/og-image.jpeg" />
-    <link rel="icon" href="./assets/favicon.ico" />
-    <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
-    <link
-      rel="preload"
-      as="font"
-      type="font/ttf"
-      crossorigin="anonymous"
-      href="./assets/fonts/Montserrat-Regular.ttf"
-    />
-    <link
-      rel="preload"
-      as="font"
-      type="font/ttf"
-      crossorigin="anonymous"
-      href="./assets/fonts/Montserrat-Italic.ttf"
-    />
-    <link
-      rel="preload"
-      as="font"
-      type="font/ttf"
-      crossorigin="anonymous"
-      href="./assets/fonts/Montserrat-SemiBold.ttf"
-    />
-    <link
-      rel="preload"
-      as="font"
-      type="font/ttf"
-      crossorigin="anonymous"
-      href="./assets/fonts/Montserrat-ExtraBold.ttf"
-    />
 
-    <link rel="stylesheet" href="./scss/style.scss" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title>Scavezzoni Méloé - Développeuse Web Frontend</title>
+  <meta name="title" content="Scavezzoni Méloé - Développeuse Web Frontend" />
+  <meta name="description" content="Site CV - Portfolio" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://unruffled-panini-66f35a.netlify.app" />
+  <meta property="og:title" content="Scavezzoni Méloé - Développeuse Web Frontend" />
+  <meta property="og:description" content="Site CV - Portfolio" />
+  <meta property="og:image" content="./assets/images/og-image.jpeg" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://unruffled-panini-66f35a.netlify.app" />
+  <meta property="twitter:title" content="Scavezzoni Méloé - Développeuse Web Frontend" />
+  <meta property="twitter:description" content="Site CV - Portfolio" />
+  <meta property="twitter:image" content="./assets/images/og-image.jpeg" />
+  <link rel="icon" href="./assets/favicon.ico" />
+  <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
+  <link rel="preload" as="font" type="font/ttf" crossorigin="anonymous" href="./assets/fonts/Montserrat-Regular.ttf" />
+  <link rel="preload" as="font" type="font/ttf" crossorigin="anonymous" href="./assets/fonts/Montserrat-Italic.ttf" />
+  <link rel="preload" as="font" type="font/ttf" crossorigin="anonymous" href="./assets/fonts/Montserrat-SemiBold.ttf" />
+  <link rel="preload" as="font" type="font/ttf" crossorigin="anonymous"
+    href="./assets/fonts/Montserrat-ExtraBold.ttf" />
 
-  <body>
-    <!-- HEADER -->
-    <div class="header-banner">
-      <div class="intro-container">
-        <div class="logo-container">
-          <svg>
-            <use href="./assets/icons/sprite.svg#logo2"></use>
-          </svg>
-        </div>
-        <h1 class="banner-text">
-          <span class="anim">
-            <span class="text-primary">Autodidacte</span>,
-          </span>
-          <span class="text-primary anim">curieuse</span>
-          <span class="anim"> et</span>
-          <span class="anim"> <span class="text-primary">motivée</span>, </span>
-          <span class="anim"> j’ai</span>
-          <span class="anim"> d’apprendre </span> <span class="anim">des</span>
-          <span class="anim">nouvelles choses</span>
-          <span class="anim">et</span>
-          <span class="anim">de perfectionner </span>
-          <span class="anim">mes</span> <span class="anim">connaissances.</span>
-        </h1>
+  <link rel="stylesheet" href="./scss/style.scss" />
+</head>
 
-        <div class="icons">
-          <a href="https://www.linkedin.com/in/meloe-scavezzoni/">
-            <svg>
-              <use
-                class="icon-anim"
-                href="./assets/icons/sprite.svg#linkedin"
-              ></use>
-            </svg>
-          </a>
-          <a href="https://github.com/MeloScav">
-            <svg>
-              <use
-                class="icon-anim"
-                href="./assets/icons/sprite.svg#github"
-              ></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="scroll-down-button">
+<body>
+  <!-- HEADER -->
+  <div class="header-banner">
+    <div class="intro-container">
+      <div class="logo-container">
         <svg>
-          <use href="./assets/icons/sprite.svg#down-arrow"></use>
+          <use href="./assets/icons/sprite.svg#logo2"></use>
         </svg>
       </div>
-      <div class="banner-image-container">
-        <div class="banner-image"></div>
+      <h1 class="banner-text">
+        <span class="anim">
+          <span class="text-primary">Autodidacte</span>,
+        </span>
+        <span class="text-primary anim">curieuse</span>
+        <span class="anim"> et</span>
+        <span class="anim"> <span class="text-primary">motivée</span>, </span>
+        <span class="anim"> j’ai</span><span class="anim"> envie</span>
+        <span class="anim"> d’apprendre </span> <span class="anim">des</span>
+        <span class="anim">nouvelles choses</span>
+        <span class="anim">et</span>
+        <span class="anim">de perfectionner </span>
+        <span class="anim">mes</span> <span class="anim">connaissances.</span>
+      </h1>
+
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/meloe-scavezzoni/">
+          <svg>
+            <use class="icon-anim" href="./assets/icons/sprite.svg#linkedin"></use>
+          </svg>
+        </a>
+        <a href="https://github.com/MeloScav">
+          <svg>
+            <use class="icon-anim" href="./assets/icons/sprite.svg#github"></use>
+          </svg>
+        </a>
       </div>
     </div>
 
-    <!-- CV -->
-    <div class="cv-container">
-      <h2 class="title">
-        <span>Curriculum vitae</span>
-      </h2>
-      <div class="circles circle-small rellax" data-rellax-speed="3"></div>
+    <div class="scroll-down-button">
+      <svg>
+        <use href="./assets/icons/sprite.svg#down-arrow"></use>
+      </svg>
+    </div>
+    <div class="banner-image-container">
+      <div class="banner-image"></div>
+    </div>
+  </div>
 
-      <!-- SKILLS -->
-      <div class="bg-secondary">
-        <h3 class="title-h3">Compétences</h3>
-        <div class="container knowledge">
-          <div class="good-knowledge">
-            <h4 class="title-h4">Bonnes connaissances</h4>
-            <div class="html">
-              <p>HTML / HTML5</p>
-            </div>
-            <div class="css">
-              <p>CSS / CSS3</p>
-            </div>
-            <div class="scss">
-              <p>SCSS</p>
-            </div>
-            <div class="js">
-              <p>JavaScript</p>
-            </div>
-            <div class="react">
-              <p>REACT</p>
-            </div>
+  <!-- CV -->
+  <div class="cv-container">
+    <h2 class="title">
+      <span>Curriculum vitae</span>
+    </h2>
+    <div class="circles circle-small rellax" data-rellax-speed="3"></div>
+
+    <!-- SKILLS -->
+    <div class="bg-secondary">
+      <h3 class="title-h3">Compétences</h3>
+      <div class="container knowledge">
+        <div class="good-knowledge">
+          <h4 class="title-h4">Bonnes connaissances</h4>
+          <div class="html">
+            <p>HTML / HTML5</p>
           </div>
+          <div class="css">
+            <p>CSS / CSS3</p>
+          </div>
+          <div class="scss">
+            <p>SCSS</p>
+          </div>
+          <div class="js">
+            <p>JavaScript</p>
+          </div>
+          <div class="react">
+            <p>REACT</p>
+          </div>
+        </div>
 
-          <div class="average-knowledge">
-            <h4 class="title-h4">Connaissances moyennes</h4>
-            <div class="row">
-              <div class="col-sm col-average-knowledge">
-                <div class="bootstrap">
-                  <p>Bootstrap</p>
-                </div>
-                <div class="row">
-                  <div class="col-6">
-                    <div class="git">
-                      <p>Git</p>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="github">
-                      <p>GitHub</p>
-                    </div>
+        <div class="average-knowledge">
+          <h4 class="title-h4">Connaissances moyennes</h4>
+          <div class="row">
+            <div class="col-sm col-average-knowledge">
+              <div class="bootstrap">
+                <p>Bootstrap</p>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div class="git">
+                    <p>Git</p>
                   </div>
                 </div>
-                <div class="angular">
-                  <p>Angular</p>
-                </div>
-                <div class="redux">
-                  <p>Redux</p>
-                </div>
-                <div class="adobexd">
-                  <p>Adobe XD</p>
+                <div class="col-6">
+                  <div class="github">
+                    <p>GitHub</p>
+                  </div>
                 </div>
               </div>
-              <div class="col-sm col-average-knowledge">
-                <div class="php">
-                  <p>PHP</p>
-                </div>
-                <div class="phpmyadmin">
-                  <p>phpMyAdmin</p>
-                </div>
+              <div class="angular">
+                <p>Angular</p>
+              </div>
+              <div class="redux">
+                <p>Redux</p>
+              </div>
+              <div class="adobexd">
+                <p>Adobe XD</p>
               </div>
             </div>
-          </div>
-
-          <div class="basic-knowledge">
-            <h4 class="title-h4">Connaissances basiques</h4>
-            <div class="row">
-              <div class="col-sm basic-knowledge-col">
-                <div class="typescript">
-                  <p>TypeScript</p>
-                </div>
-                <div class="wordpress">
-                  <p>WordPress</p>
-                </div>
-                <div class="parcel">
-                  <p>Parcel</p>
-                </div>
-                <div class="webpack">
-                  <p>Webpack</p>
-                </div>
-                <div class="balsamiq">
-                  <p>Balsamiq</p>
-                </div>
+            <div class="col-sm col-average-knowledge">
+              <div class="php">
+                <p>PHP</p>
               </div>
-              <div class="col-sm basic-knowledge-col">
-                <div class="mysql">
-                  <p>MySQL</p>
-                </div>
-                <div class="python">
-                  <p>Python</p>
-                </div>
-                <div class="batch">
-                  <p>Batch</p>
-                </div>
-                <div class="figma">
-                  <p>Figma</p>
-                </div>
+              <div class="phpmyadmin">
+                <p>phpMyAdmin</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- PROFESSIONAL EXPERIENCES -->
-      <div class="xp-container">
-        <div class="circles circle-middle rellax" data-rellax-speed="2"></div>
-        <div class="circles circle-tall rellax" data-rellax-speed="3"></div>
-        <h3 class="title-h3">Expériences professionnelle</h3>
-        <div class="container">
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-5 col-md-3">
-                <p class="text-align-right">Décembre 2019 - Février 2020</p>
+        <div class="basic-knowledge">
+          <h4 class="title-h4">Connaissances basiques</h4>
+          <div class="row">
+            <div class="col-sm basic-knowledge-col">
+              <div class="typescript">
+                <p>TypeScript</p>
               </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
+              <div class="wordpress">
+                <p>WordPress</p>
               </div>
-              <div class="col-7 col-md-5">
-                <p class="xp-title">
-                  <span class="name">Développeuse Web</span>
-                  <span class="establishment">Webadev</span>
-                  <span class="city">Liège</span>
-                </p>
-                <div class="xp-description">
-                  <p>
-                    Intégration de site statique à partir de design, création de
-                    design, intégration de la partie frontend dans la partie
-                    backend (Zend Framework 3), modification de contenu, mise à
-                    jour d’anciens projets.
-                  </p>
-                </div>
+              <div class="parcel">
+                <p>Parcel</p>
+              </div>
+              <div class="webpack">
+                <p>Webpack</p>
+              </div>
+              <div class="balsamiq">
+                <p>Balsamiq</p>
               </div>
             </div>
-          </div>
-
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-5 col-md-3">
-                <p class="text-align-right">2019</p>
+            <div class="col-sm basic-knowledge-col">
+              <div class="mysql">
+                <p>MySQL</p>
               </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
+              <div class="python">
+                <p>Python</p>
               </div>
-              <div class="col-7 col-md-5">
-                <p class="xp-title">
-                  <span class="name">Hackathon</span>
-                  <span class="establishment">WeCargo</span>
-                  <span class="city">Liège</span>
-                </p>
+              <div class="batch">
+                <p>Batch</p>
               </div>
-            </div>
-          </div>
-
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-5 col-md-3">
-                <p class="text-align-right">Mai 2019 - mars 2020</p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-7 col-md-5">
-                <p class="xp-title">
-                  <span class="name">Développeuse Web Junior</span>
-                  <span class="establishment">BeCode</span>
-                  <span class="city">Liège</span>
-                </p>
-                <div class="xp-description">
-                  <p>
-                    Utilisation de Git/GitHub, apprentissage autodidacte de
-                    différents langages, création de site web (statique,
-                    dynamique, SPA) et d’application.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-5 col-md-3">
-                <p class="text-align-right">Décembre 2018</p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-7 col-md-5">
-                <p class="xp-title">
-                  <span class="name">Caissier / Réassortisseur</span>
-                  <span class="establishment">Primark</span>
-                  <span class="city">Liège</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-5 col-md-3">
-                <p class="text-align-right">Juin 2017</p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-7 col-md-5">
-                <p class="xp-title">
-                  <span class="name">Assistante Vétérinaire</span>
-                  <span class="establishment">Centre Vétérinaire Triovet</span>
-                  <span class="city">Liège</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-5 col-md-3">
-                <p class="text-align-right">Décembre 2016</p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-7 col-md-5">
-                <p class="xp-title">
-                  <span class="name">Assistante Vétérinaire</span>
-                  <span class="establishment"
-                    >Cabinet Vétérinaire - Dr Catherine Bande</span
-                  >
-                  <span class="city">Beaufays</span>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="padding-content-end">
-            <div class="row justify-content-md-center">
-              <div class="col-5 col-md-3">
-                <p class="text-align-right">2013</p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-7 col-md-5">
-                <p class="xp-title">
-                  <span class="name">Agent d'accueil</span>
-                  <span class="establishment">Carrefour</span>
-                  <span class="city">Fléron</span>
-                </p>
-                <div class="xp-description">
-                  <p>Job étudiant</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- DIPLOMAS AND QUALIFICATIONS -->
-      <div class="bg-secondary">
-        <h3 class="title-h3">Diplômes et formations</h3>
-        <div class="container">
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-7 col-md-5">
-                <p class="xp-title text-align-right">
-                  <span class="name">Devenir Web Designer</span>
-                  <span class="establishment">Udemy</span>
-                  <span class="city">Liège</span>
-                </p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-5 col-md-3">
-                <p>Mars 2021</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-7 col-md-5">
-                <p class="xp-title text-align-right">
-                  <span class="name">Développeuse Web Junior</span>
-                  <span class="establishment">BeCode</span>
-                  <span class="city">Liège</span>
-                </p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-5 col-md-3">
-                <p>Mai 2019 à mars 2020</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="padding-content">
-            <div class="row justify-content-md-center">
-              <div class="col-7 col-md-5">
-                <p class="xp-title text-align-right">
-                  <span class="name">Assistante Vétérinaire</span>
-                  <span class="establishment">IEPS</span>
-                  <span class="city">Fléron</span>
-                </p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-5 col-md-3">
-                <p>2015 - 2017</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="padding-content-end">
-            <div class="row justify-content-md-center">
-              <div class="col-7 col-md-5">
-                <p class="xp-title text-align-right">
-                  <span class="name">CESS</span>
-                  <span class="establishment">Lycée Saint-Jacques</span>
-                  <span class="city">Liège</span>
-                </p>
-              </div>
-              <div class="d-none d-md-block col-md-auto">
-                <div class="separation">
-                  <div class="line"></div>
-                  <div class="circle"></div>
-                  <div class="line"></div>
-                </div>
-              </div>
-              <div class="col-5 col-md-3">
-                <p>2012</p>
+              <div class="figma">
+                <p>Figma</p>
               </div>
             </div>
           </div>
@@ -506,212 +189,449 @@
       </div>
     </div>
 
-    <!-- PORTFOLIO -->
-    <div class="container-portfolio-footer">
-      <div class="circles circle-tall rellax" data-rellax-speed="1"></div>
-      <div class="circles circle-small rellax" data-rellax-speed="3"></div>
+    <!-- PROFESSIONAL EXPERIENCES -->
+    <div class="xp-container">
       <div class="circles circle-middle rellax" data-rellax-speed="2"></div>
-      <h2 class="title">
-        <span>Portfolio</span>
-      </h2>
+      <div class="circles circle-tall rellax" data-rellax-speed="3"></div>
+      <h3 class="title-h3">Expériences professionnelle</h3>
       <div class="container">
-        <div class="portfolio">
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/web-site.jpeg"
-              alt="My old web site"
-            />
-            <a href="https://meloescavezzoni.netlify.app/" class="link-img">
-              <span class="title-img">Mon ancien site</span>
-            </a>
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-5 col-md-3">
+              <p class="text-align-right">Décembre 2019 - Février 2020</p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-7 col-md-5">
+              <p class="xp-title">
+                <span class="name">Développeuse Web</span>
+                <span class="establishment">Webadev</span>
+                <span class="city">Liège</span>
+              </p>
+              <div class="xp-description">
+                <p>
+                  Intégration de site statique à partir de design, création de
+                  design, intégration de la partie frontend dans la partie
+                  backend (Zend Framework 3), modification de contenu, mise à
+                  jour d’anciens projets.
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
 
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/bookshelf.jpeg"
-              alt="Bookshelf"
-            />
-            <a
-              href="https://bookshelf-ms.netlify.app/auth/signup"
-              class="link-img"
-            >
-              <span class="title-img">Bookshelf</span>
-              <span class="description-img">
-                Une application créée avec Angular et Firebase.
-              </span>
-            </a>
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-5 col-md-3">
+              <p class="text-align-right">2019</p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-7 col-md-5">
+              <p class="xp-title">
+                <span class="name">Hackathon</span>
+                <span class="establishment">WeCargo</span>
+                <span class="city">Liège</span>
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div class="block-img grid-item">
-            <img src="./assets/images/portfolio/pomodoro.jpeg" alt="Pomodoro" />
-            <a href="https://pomodoro-ms.netlify.app/" class="link-img">
-              <span class="title-img">Pomodoro</span>
-              <span class="description-img">
-                Réalisé avec REACT, il permet de gérer le temps de travail et de
-                pause.
-              </span>
-            </a>
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-5 col-md-3">
+              <p class="text-align-right">Mai 2019 - mars 2020</p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-7 col-md-5">
+              <p class="xp-title">
+                <span class="name">Développeuse Web Junior</span>
+                <span class="establishment">BeCode</span>
+                <span class="city">Liège</span>
+              </p>
+              <div class="xp-description">
+                <p>
+                  Utilisation de Git/GitHub, apprentissage autodidacte de
+                  différents langages, création de site web (statique,
+                  dynamique, SPA) et d’application.
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
 
-          <div class="block-img grid-item">
-            <img src="./assets/images/portfolio/ghjpsy.jpeg" alt="Ghjpsy" />
-            <a href="https://www.ghjpsy.org/" class="link-img">
-              <span class="title-img">Ghjpsy</span>
-              <span class="description-img">
-                Participation au développement d'un site internet pour un groupe
-                d'hôpitaux psychiatriques de jour.
-              </span>
-            </a>
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-5 col-md-3">
+              <p class="text-align-right">Décembre 2018</p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-7 col-md-5">
+              <p class="xp-title">
+                <span class="name">Caissier / Réassortisseur</span>
+                <span class="establishment">Primark</span>
+                <span class="city">Liège</span>
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div class="block-img grid-item">
-            <img src="./assets/images/portfolio/coach2.jpeg" alt="Coach2" />
-            <a href="https://www.coach2.be/" class="link-img">
-              <span class="title-img">Coach2</span>
-              <span class="description-img">
-                Participation au développement d'un site internet pour "Coach2,
-                Business & Human development".
-              </span>
-            </a>
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-5 col-md-3">
+              <p class="text-align-right">Juin 2017</p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-7 col-md-5">
+              <p class="xp-title">
+                <span class="name">Assistante Vétérinaire</span>
+                <span class="establishment">Centre Vétérinaire Triovet</span>
+                <span class="city">Liège</span>
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/bureau-andre.jpeg"
-              alt="Bureau Andre"
-            />
-            <a href="https://www.bureau-andre.be/" class="link-img">
-              <span class="title-img">Bureau Andre</span>
-              <span class="description-img">
-                Participation au développement d'un site pour le bureau d'études
-                et d'expertises André.
-              </span>
-            </a>
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-5 col-md-3">
+              <p class="text-align-right">Décembre 2016</p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-7 col-md-5">
+              <p class="xp-title">
+                <span class="name">Assistante Vétérinaire</span>
+                <span class="establishment">Cabinet Vétérinaire - Dr Catherine Bande</span>
+                <span class="city">Beaufays</span>
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/gregor-potter.jpeg"
-              alt="Gregor Potter"
-            />
-            <a href="https://www.gregorpotter.com/" class="link-img">
-              <span class="title-img">Gregor Potter</span>
-              <span class="description-img">
-                Participation au développement d'un site internet pour un DJ
-                Belge.
-              </span>
-            </a>
-          </div>
-
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/climactes.jpg"
-              alt="Climactes"
-            />
-            <a href="https://www.climactes.org/" class="link-img">
-              <span class="title-img">Climactes</span>
-              <span class="description-img">
-                Participation au développement d'un site internet pour une
-                université d'été qui veut agir pour le climat.
-              </span>
-            </a>
-          </div>
-
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/achille-et-margaux.jpg"
-              alt="Achille et Margaux"
-            />
-            <a href="https://www.achillemargaux.be/" class="link-img">
-              <span class="title-img">Achille et Margaux</span>
-              <span class="description-img">
-                Participation au développement d'un site internet pour une
-                agence immobilière.
-              </span>
-            </a>
-          </div>
-
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/ferretland.jpeg"
-              alt="Ferretland"
-            />
-            <a href="https://ferretland-ms.netlify.app/" class="link-img">
-              <span class="title-img">Ferretland</span>
-              <span class="description-img">
-                Un test pour un site de toilettage.
-              </span>
-            </a>
-          </div>
-
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/trouvkach.jpg"
-              alt="Trouvkach"
-            />
-            <a href="https://trouvkach-6.herokuapp.com/" class="link-img">
-              <span class="title-img">Trouvkach</span>
-              <span class="description-img">
-                Une application pour trouver une banque, réalisée en REACT.
-              </span>
-            </a>
-          </div>
-
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/tic-tac-toe.jpeg"
-              alt="Tic Tac Toe"
-            />
-            <a
-              href="https://meloscav.github.io/Jeu-Tic-tac-toe-/"
-              class="link-img"
-            >
-              <span class="title-img">Tic Tac Toe</span>
-              <span class="description-img">Petit jeu en CANVAS.</span>
-            </a>
-          </div>
-
-          <div class="block-img grid-item">
-            <img
-              src="./assets/images/portfolio/casse-briques.jpg"
-              alt="Casse briques"
-            />
-            <a
-              href="https://meloscav.github.io/Jeu-casse-briques/"
-              class="link-img"
-            >
-              <span class="title-img">Casse briques</span>
-              <span class="description-img">Petit jeu en CANVAS.</span>
-            </a>
+        <div class="padding-content-end">
+          <div class="row justify-content-md-center">
+            <div class="col-5 col-md-3">
+              <p class="text-align-right">2013</p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-7 col-md-5">
+              <p class="xp-title">
+                <span class="name">Agent d'accueil</span>
+                <span class="establishment">Carrefour</span>
+                <span class="city">Fléron</span>
+              </p>
+              <div class="xp-description">
+                <p>Job étudiant</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- FOOTER -->
-      <div class="footer">
-        <h4 class="title-footer"><span>Contact</span></h4>
-        <p class="email">
-          <a href="mailto:meloscavezzoni@gmail.com">
-            meloscavezzoni@gmail.com
+    <!-- DIPLOMAS AND QUALIFICATIONS -->
+    <div class="bg-secondary">
+      <h3 class="title-h3">Diplômes et formations</h3>
+      <div class="container">
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-7 col-md-5">
+              <p class="xp-title text-align-right">
+                <span class="name">Devenir Web Designer</span>
+                <span class="establishment">Udemy</span>
+                <span class="city">Liège</span>
+              </p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-5 col-md-3">
+              <p>Mars 2021</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-7 col-md-5">
+              <p class="xp-title text-align-right">
+                <span class="name">Développeuse Web Junior</span>
+                <span class="establishment">BeCode</span>
+                <span class="city">Liège</span>
+              </p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-5 col-md-3">
+              <p>Mai 2019 à mars 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="padding-content">
+          <div class="row justify-content-md-center">
+            <div class="col-7 col-md-5">
+              <p class="xp-title text-align-right">
+                <span class="name">Assistante Vétérinaire</span>
+                <span class="establishment">IEPS</span>
+                <span class="city">Fléron</span>
+              </p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-5 col-md-3">
+              <p>2015 - 2017</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="padding-content-end">
+          <div class="row justify-content-md-center">
+            <div class="col-7 col-md-5">
+              <p class="xp-title text-align-right">
+                <span class="name">CESS</span>
+                <span class="establishment">Lycée Saint-Jacques</span>
+                <span class="city">Liège</span>
+              </p>
+            </div>
+            <div class="d-none d-md-block col-md-auto">
+              <div class="separation">
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+            <div class="col-5 col-md-3">
+              <p>2012</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO -->
+  <div class="container-portfolio-footer">
+    <div class="circles circle-tall rellax" data-rellax-speed="1"></div>
+    <div class="circles circle-small rellax" data-rellax-speed="3"></div>
+    <div class="circles circle-middle rellax" data-rellax-speed="2"></div>
+    <h2 class="title">
+      <span>Portfolio</span>
+    </h2>
+    <div class="container">
+      <div class="portfolio">
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/web-site.jpeg" alt="My old web site" />
+          <a href="https://meloescavezzoni.netlify.app/" class="link-img">
+            <span class="title-img">Mon ancien site</span>
           </a>
-        </p>
-        <h4 class="title-footer">
-          <span>Retrouvez-moi également sur :</span>
-        </h4>
-        <div class="icons">
-          <a href="https://www.linkedin.com/in/meloe-scavezzoni/">
-            <svg>
-              <use href="./assets/icons/sprite.svg#linkedin"></use>
-            </svg>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/bookshelf.jpeg" alt="Bookshelf" />
+          <a href="https://bookshelf-ms.netlify.app/auth/signup" class="link-img">
+            <span class="title-img">Bookshelf</span>
+            <span class="description-img">
+              Une application créée avec Angular et Firebase.
+            </span>
           </a>
-          <a href="https://github.com/MeloScav">
-            <svg>
-              <use href="./assets/icons/sprite.svg#github"></use>
-            </svg>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/pomodoro.jpeg" alt="Pomodoro" />
+          <a href="https://pomodoro-ms.netlify.app/" class="link-img">
+            <span class="title-img">Pomodoro</span>
+            <span class="description-img">
+              Réalisé avec REACT, il permet de gérer le temps de travail et de
+              pause.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/ghjpsy.jpeg" alt="Ghjpsy" />
+          <a href="https://www.ghjpsy.org/" class="link-img">
+            <span class="title-img">Ghjpsy</span>
+            <span class="description-img">
+              Participation au développement d'un site internet pour un groupe
+              d'hôpitaux psychiatriques de jour.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/coach2.jpeg" alt="Coach2" />
+          <a href="https://www.coach2.be/" class="link-img">
+            <span class="title-img">Coach2</span>
+            <span class="description-img">
+              Participation au développement d'un site internet pour "Coach2,
+              Business & Human development".
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/bureau-andre.jpeg" alt="Bureau Andre" />
+          <a href="https://www.bureau-andre.be/" class="link-img">
+            <span class="title-img">Bureau Andre</span>
+            <span class="description-img">
+              Participation au développement d'un site pour le bureau d'études
+              et d'expertises André.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/gregor-potter.jpeg" alt="Gregor Potter" />
+          <a href="https://www.gregorpotter.com/" class="link-img">
+            <span class="title-img">Gregor Potter</span>
+            <span class="description-img">
+              Participation au développement d'un site internet pour un DJ
+              Belge.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/climactes.jpg" alt="Climactes" />
+          <a href="https://www.climactes.org/" class="link-img">
+            <span class="title-img">Climactes</span>
+            <span class="description-img">
+              Participation au développement d'un site internet pour une
+              université d'été qui veut agir pour le climat.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/achille-et-margaux.jpg" alt="Achille et Margaux" />
+          <a href="https://www.achillemargaux.be/" class="link-img">
+            <span class="title-img">Achille et Margaux</span>
+            <span class="description-img">
+              Participation au développement d'un site internet pour une
+              agence immobilière.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/ferretland.jpeg" alt="Ferretland" />
+          <a href="https://ferretland-ms.netlify.app/" class="link-img">
+            <span class="title-img">Ferretland</span>
+            <span class="description-img">
+              Un test pour un site de toilettage.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/trouvkach.jpg" alt="Trouvkach" />
+          <a href="https://trouvkach-6.herokuapp.com/" class="link-img">
+            <span class="title-img">Trouvkach</span>
+            <span class="description-img">
+              Une application pour trouver une banque, réalisée en REACT.
+            </span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/tic-tac-toe.jpeg" alt="Tic Tac Toe" />
+          <a href="https://meloscav.github.io/Jeu-Tic-tac-toe-/" class="link-img">
+            <span class="title-img">Tic Tac Toe</span>
+            <span class="description-img">Petit jeu en CANVAS.</span>
+          </a>
+        </div>
+
+        <div class="block-img grid-item">
+          <img src="./assets/images/portfolio/casse-briques.jpg" alt="Casse briques" />
+          <a href="https://meloscav.github.io/Jeu-casse-briques/" class="link-img">
+            <span class="title-img">Casse briques</span>
+            <span class="description-img">Petit jeu en CANVAS.</span>
           </a>
         </div>
       </div>
     </div>
-    <script src="./index.js"></script>
-  </body>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <h4 class="title-footer"><span>Contact</span></h4>
+      <p class="email">
+        <a href="mailto:meloscavezzoni@gmail.com">
+          meloscavezzoni@gmail.com
+        </a>
+      </p>
+      <h4 class="title-footer">
+        <span>Retrouvez-moi également sur :</span>
+      </h4>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/meloe-scavezzoni/">
+          <svg>
+            <use href="./assets/icons/sprite.svg#linkedin"></use>
+          </svg>
+        </a>
+        <a href="https://github.com/MeloScav">
+          <svg>
+            <use href="./assets/icons/sprite.svg#github"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
 </html>
