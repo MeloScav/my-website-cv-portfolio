@@ -77,6 +77,10 @@
         font-size: calculateRem(27);
         line-height: 33px;
       }
+
+      .text-header {
+        color: $colorTextHeader;
+      }
     }
 
     .icons {
