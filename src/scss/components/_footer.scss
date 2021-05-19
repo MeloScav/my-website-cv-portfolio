@@ -25,19 +25,25 @@
 
   .email {
     margin-bottom: 32px;
-    transition: all ease-in-out 0.35s;
+    transition: all 0.35s ease-in-out;
     padding: 5px 15px;
     a {
       text-decoration: none;
       color: $white;
+      transition: all 0.35s ease-in-out;
     }
     &:hover {
-      transform: scale(1.1);
       background-color: $white;
       border-radius: 8px;
       a {
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         color: $primary;
+      }
+      @include media-breakpoint-up(sm) {
+        transform: scale(1.1);
+        a {
+          letter-spacing: 3px;
+        }
       }
     }
   }
