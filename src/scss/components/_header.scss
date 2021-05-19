@@ -24,7 +24,6 @@
       justify-content: center;
       align-items: center;
       z-index: 1;
-
       @include media-breakpoint-down(lg) {
         padding: 10px 0 10px 0;
         min-width: 100%;
@@ -35,6 +34,9 @@
       img {
         width: 250px;
         height: auto;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-30px);
         @include media-breakpoint-up(lg) {
           width: 370px;
         }
@@ -78,6 +80,11 @@
         line-height: 33px;
       }
 
+      .anim {
+        opacity: 0;
+        visibility: hidden;
+      }
+
       .text-header {
         color: $colorTextHeader;
       }
@@ -98,6 +105,12 @@
             color: $darkPrimary;
           }
         }
+      }
+
+      .icon-anim {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
       }
     }
   }
