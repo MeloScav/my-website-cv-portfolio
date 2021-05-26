@@ -16,13 +16,21 @@ window.addEventListener("load", () => {
     y: 0,
     ease: "bounce.out",
   })
-    .to(text, { duration: 1.5, stagger: 0.4, autoAlpha: 1, ease: "power2.out" })
-    .to(icons, {
-      duration: 0.4,
-      stagger: 0.3,
-      scale: 1,
-      autoAlpha: 1,
-      ease: "power2.out",
-    });
+    .to(
+      text,
+      { duration: 1.5, stagger: 0.4, autoAlpha: 1, ease: "power2.out" },
+      "-=0.75"
+    )
+    .to(
+      icons,
+      {
+        duration: 0.4,
+        stagger: 0.3,
+        scale: 1,
+        autoAlpha: 1,
+        ease: "power2.out",
+      },
+      "-=0.75"
+    );
   TL.play();
 });
